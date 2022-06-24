@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [REGRESSION1.0]" parallel="methods">
+  <parameter name="browsername" value="chrome"/>
+  <parameter name="browserversion" value="6"/>
+  <parameter name="platform" value="windows"/>
+  <test name="Chrome(failed)" parallel="methods">
+    <method-selectors>
+      <method-selector>
+        <script language="BeanShell">
+          <![CDATA[
+         			groups.containsKey("parallelTests")
+       			]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <classes>
+      <class name="TG3.com.demo.testNG.parallelExecution.ParallelExecution">
+        <methods>
+          <include name="m2"/>
+          <include name="m1"/>
+          <include name="m14"/>
+          <include name="m3"/>
+          <include name="m5"/>
+        </methods>
+      </class> <!-- TG3.com.demo.testNG.parallelExecution.ParallelExecution -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [REGRESSION1.0] -->

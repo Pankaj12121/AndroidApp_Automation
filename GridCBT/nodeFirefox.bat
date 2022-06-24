@@ -1,0 +1,1 @@
+java -Dwebdriver.gecko.driver=C:\GridCBT\geckodriver.exe -jar selenium-server-standalone-3.11.0.jar -port 5557 -role node -hub http://localhost:4444/grid/register -nodeConfig NodeConfig.json

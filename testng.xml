@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Build_11.3">
+	<test name="Sanity_Test">
+		<parameter name="UserName" value="Admin" />
+		<parameter name="Password" value="admin" />
+		<parameter name="browsername" value="chrome" />
+		<parameter name="appURL" value="http://newtours.demoaut.com/" />
+		<packages>
+			<package name="com.demo.*" />
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,129 @@
+Write a Java program to print the result of the following operations.
+Test Data:
+a. -5 + 8 * 6
+b. (55+9) % 9 
+c. 20 + -3*5 / 8 
+d. 5 + 15 / 3 * 2 - 8 % 3 
+----------------------------------------------------------------------------------
+Write a Java program to print an American flag on the screen. 
+* * * * * * ==================================                          
+ * * * * *  ==================================                          
+* * * * * * ==================================                          
+ * * * * *  ==================================                          
+* * * * * * ==================================                          
+ * * * * *  ==================================                          
+* * * * * * ==================================                          
+ * * * * *  ==================================                          
+* * * * * * ==================================                          
+==============================================                          
+==============================================                          
+==============================================                          
+==============================================                          
+==============================================                          
+==============================================
+---------------------------------------------------------------------------------
+Write a Java program to check whether Java is installed on your computer. 
+Expected Output
+
+Java Version: 1.8.0_71                                                            
+Java Runtime Version: 1.8.0_71-b15                                                
+Java Home: /opt/jdk/jdk1.8.0_71/jre                                               
+Java Vendor: Oracle Corporation                                                   
+Java Vendor URL: http://java.oracle.com/                                          
+Java Class Path: .
+----------------------------------------------------------------------------
+Write a Java program to print the odd numbers from 1 to 99. Prints one number per line.
+
+---------------------------------------------------------------------------------------------------
+Write a Java program to accept a number and check the number is even or not. Prints 1 if the number is even or 0 if the number is odd.
+
+---------------------------------------------------------------------------------------------------------
+
+Write a Java program to print numbers between 1 to 100 which are divisible by 3, 5 and by both
+
+---------------------------------------------------------------------------------------------------------------------
+
+Count the number of odd values from 0 to 10 using for loop.
+----------------------------------------------------------------------------------------------------------------
+CReate 3 constructors and intialize the instance variable Height and width in such a way to print like below.
+
+
+ 		  System.out.println(b1.width +"\t"+b1.height);
+		  System.out.println(b2.width +"\t"+b2.height);
+		  System.out.println(b3.width +"\t"+b3.height);
+console output:
+
+0	0
+15	15
+15	25
+
+-------------------------------------------------------------------------------------------------------------------
+ In hashmap add below entries and Remove Entry for letter starting for 'IST' and print.
+        certificationCost.put("ISTQB", 7000); 
+		certificationCost.put("ISTTB", 11000); 
+		certificationCost.put("ocjp", 18000);
+		certificationCost.put("NSE", 2000); 
+		certificationCost.put("Agile", 16000); 
+-----------------------------------------------------------------------------------------------------------------------------
+Create two classes salary and gross salary, in salary class create  local variable takeHomeSalary and inialize 	it with the value coming from 
+GrossSalary class, it has one static method SalaryBrkUp which has two parameter basic salary and bonus.
+-----------------------------------------------------------------------------------------------------------------------------
+Use below values and print SOP's apply the logic of java basics you learned. use else if and for each logic.		
+		int A = 69;
+		int B= 55;
+		int C=45;
+		int D= 25;
+		int AA=85;
+		System.out.println("You are failed bcoz marks obtained are "+D);
+		System.out.println("You are passed and got third class bcoz marks obtained are "+C);
+		System.out.println("You are passed and got second class bcoz marks obtained are "+B);
+		System.out.println("You are passed and got first class bcoz marks obtained are "+A);
+		System.out.println("You are passed and got distinction bcoz marks obtained are "+AA);
+
+---------------------------------------------------------------------------------------------------------------------
+Print prime numbers up to 30 using for each loop
+	
+-----------------------------------------------------------------------------------------
+print your residential address using for each loop	
+
+--------------------------------------------------------------------------------
+use if condition to find the smallest and largest of three numbers.
+
+Test Data
+Input the 1st number: 25
+Input the 2nd number: 78
+Input the 3rd number: 87	
+
+-----------------------------------------------------------------------------------------------
+using switch case and input as a integer between 1 and 7 to switch and displays the name of the weekday.
+
+-----------------------------------------------------------------------------------------------------
+
+Write a program using for loop to add natural numbers and when sum reach to 28 break the for loop.
+
+----------------------------------------------------------------------------------------------------------
+
+create a pattern to print the numbers like below this
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+12345678910
+----------------------------------------------------------------------------------------
+
+you have to print below three statements one by one using elseif condition of java.
+
+numbers are: int x=2345,y=2435,z=2534;
+Statements are: "All numbers are equal", "Neither all are equal or different", "All numbers are different"
+
+------------------------------------------------------------------------------------------------------------------------------
+**********Collection*************************************************
+
+-------------------------------------------------------------------------------------------------
+Write a Java program to create a new array list, add some elements (string-Red,blue,green,yellow) and print out the collection.
+-------------------------------------------------------------------------------------------------------------------------
